@@ -1,0 +1,188 @@
+*{
+  /* background-color:rgb(162, 113, 113); */
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+.homepage .nav{
+  height: 70px;
+  width: 100%;
+  /* background-color: rgb(155, 155, 203); */
+  background-color: #fff;
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  align-items: center;
+}
+.homepage .nav .logo{
+
+  /* background-color: antiquewhite; */
+  height: 50px;
+  width: 120px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.f{
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+.homepage .nav .logo .ic .i{
+  height: 40px;
+  width: 40px;
+  padding-right: 10px;
+}
+.homepage .nav .menu{
+  height: 50px;
+  width: 90%;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.homepage .nav .menu .id{
+  /* background-color: brown; */
+  width: 50px;
+  justify-content: space-between;
+  background-color: #fbfbfe;
+
+}
+.homepage .nav .menu .id .m{
+  width: 48px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.homepage{
+  height: 1380px;
+  width: 100%;
+  background-color: #f3f6fd;
+}
+.homepage .first{
+  height:70px;
+  width:100%;
+  /* background-color: aqua; */
+  padding-top: 20px;
+  display: flex;
+}
+.homepage .first .ynote{
+  height: 70px;
+  width:80%;
+  background-color: rgb(250, 250, 252);
+  border-radius: 10px;
+  margin-left: 30px;
+  /* padding-top: 30px; */
+}
+.homepage .first .icon{
+  height: 70px;
+  width:12%;
+  background-color: rgb(250, 250, 252);
+  border-radius: 10px;
+  margin-left: 30px;
+  /* padding-top: 30px; */
+}
+.homepage .note{
+  height: 1100px;
+  width: 95%;
+  background-color: #ffffff;
+  margin-left: 30px;
+  border-radius: 1%;
+}
+.homepage .note .head{
+  height: 100px;
+  /* background-color: rgb(224, 179, 179); */
+  display:grid;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+.homepage .note .head h1{
+  font-size: 30px;
+  margin-top: 25px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .homepage .note .head .lines{
+
+} */
+.homepage .note .head ol{
+  /* background-color: rgb(82, 91, 99); */
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: none;
+}
+.homepage.note .head ol .li{
+  text-decoration: none;
+  color: aliceblue;
+}
+.homepage .note .head ol li a{
+  text-decoration: none;
+  color: rgb(187, 192, 197);
+}
+.homepage .note .head ol li a:hover{
+  color: black;
+  cursor: pointer;
+
+}
+.homepage .note .section{
+  /* background-color: rgb(95, 161, 161); */
+  height: 310px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.homepage .note .section .box{
+  height: 290px;
+  width: 355px;
+  background-color: white;
+  border-radius: 3%;
+  box-shadow:1px 1px 1px 1px rgb(57, 57, 57);
+}
+
+.homepage .note .section .a:hover{
+  background-color: rgb(108, 200, 242);
+  color: white;
+}
+.homepage .note .section .b:hover{
+  background-color: rgb(151, 106, 186);
+  color: white;
+}
+.homepage .note .section .c:hover{
+  background-color: rgb(216, 132, 93);
+  color: white;
+}
+.homepage .note .section .d:hover{
+  background-color: rgb(244, 62, 183);
+  color: white;
+}
+.homepage .note .section .e:hover{
+  background-color: rgb(5, 18, 18);
+  color: white;
+}
+.homepage .note .section .f:hover{
+  background-color:rgb(67, 151, 151);
+  color: white;
+}
+.homepage .note .section .g:hover{
+  background-color:rgb(67, 151, 151);
+  color: white;
+}
+.homepage .note .section .h:hover{
+  background-color:  rgb(216, 132, 93);
+  color: white;
+}
+.homepage .note .section .i:hover{
+  background-color:rgb(63, 225, 225);
+  color: white;
+}
+
